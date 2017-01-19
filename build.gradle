@@ -1,0 +1,10 @@
+apply plugin: 'application'
+mainClassName = 'aoeiuv020.Main'
+repositories {
+    jcenter()
+}
+dependencies {
+	compile 'org.slf4j:slf4j-api:1.7.21'
+	compile 'com.squareup.okio:okio:1.11.0'
+    testCompile 'junit:junit:4.12'
+}
